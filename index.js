@@ -49,6 +49,7 @@ function onTickets() {
                 message += `\n  Preço: R$ ${ticket.price}`;
             });
             telegramBot.sendMessage(telegramChatId, message);
+            tickets.length = 0;
             /* telegramBot.on('message', (msg) => {
                 const chatId = msg.chat.id;
                 telegramBot.sendMessage(chatId, `Seu id da conversa é: ${chatId}`);
