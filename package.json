@@ -4,7 +4,8 @@
   "description": "Applicação para notificar no telegram caso o ingresso no sympla fique disponível",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Samuel Edson",
   "license": "ISC",
