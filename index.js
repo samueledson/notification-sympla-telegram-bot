@@ -57,4 +57,4 @@ function onTickets() {
     });
 }
 
-setInterval(onTickets, 10000);
+setInterval(onTickets, 60000);
