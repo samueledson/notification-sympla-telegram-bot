@@ -1,0 +1,16 @@
+{
+  "name": "sympla-notify-telegram",
+  "version": "1.0.0",
+  "description": "Applicação para notificar no telegram caso o ingresso no sympla fique disponível",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Edson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
