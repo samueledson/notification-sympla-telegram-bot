@@ -20,7 +20,7 @@ const events = {
     }
 };
 
-const event = events.festivalGarden;
+const event = events.deLaMancha;
 
 const urlTickets = `https://event-page.svc.sympla.com.br/api/event-bff/purchase/event/${event.id}/tickets`;
 
