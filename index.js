@@ -20,7 +20,7 @@ const events = {
     }
 };
 
-const event = events.deLaMancha;
+const event = events.natalBoticario;
 
 const urlTickets = `https://event-page.svc.sympla.com.br/api/event-bff/purchase/event/${event.id}/tickets`;
 
@@ -58,4 +58,4 @@ function onTickets() {
     });
 }
 
-setInterval(onTickets, 60000);
+setInterval(onTickets, 300000);
